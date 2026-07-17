@@ -1,45 +1,6 @@
 {
   "board": {
-    "3dviewports": [
-      {
-        "name": "Front",
-        "ww": 1.0,
-        "wx": -22.792261123657227,
-        "wy": 16.33702850341797,
-        "wz": -22.88460922241211,
-        "xw": 0.0,
-        "xx": 0.995398998260498,
-        "xy": 0.08117987960577011,
-        "xz": -0.05087898671627045,
-        "yw": 0.0,
-        "yx": -0.08781442046165466,
-        "yy": 0.9854207634925842,
-        "yz": -0.145720973610878,
-        "zw": 0.0,
-        "zx": 0.03830753639340401,
-        "zy": 0.1495184600353241,
-        "zz": 0.9880169034004211
-      },
-      {
-        "name": "Rear",
-        "ww": 1.0,
-        "wx": 20.740842819213867,
-        "wy": 18.850650787353516,
-        "wz": -19.438682556152344,
-        "xw": 0.0,
-        "xx": -0.9959992170333862,
-        "xy": -0.024644676595926285,
-        "xz": 0.08589424192905426,
-        "yw": 0.0,
-        "yx": -0.02478688396513462,
-        "yy": 0.9996929168701172,
-        "yz": -0.0005902815610170364,
-        "zw": 0.0,
-        "zx": -0.08585402369499207,
-        "zy": -0.0027168206870555878,
-        "zz": -0.9963041543960571
-      }
-    ],
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_barcodes": false,
@@ -117,28 +78,24 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|121996100|108902600|8c9fbbd9-56f6-4f97-9c62-57f614a57b0e|966e63b2-224d-4513-b74d-fb0f983939e3",
-          ""
+          "courtyards_overlap|119819042|122250600|d2e5f2a9-7898-41dd-91d1-e9dd0a78c14c|f3a3b410-2c73-4724-8aa0-ab29864e95fa",
+          "this is a socketed IC"
         ],
         [
-          "courtyards_overlap|105294207|107444600|05bee710-c7a0-4a12-b381-dd105f74de9f|d2e5f2a9-7898-41dd-91d1-e9dd0a78c14c",
-          ""
-        ],
-        [
-          "courtyards_overlap|123335600|122270600|d2e5f2a9-7898-41dd-91d1-e9dd0a78c14c|f3a3b410-2c73-4724-8aa0-ab29864e95fa",
-          ""
+          "courtyards_overlap|122364100|107444600|05bee710-c7a0-4a12-b381-dd105f74de9f|d2e5f2a9-7898-41dd-91d1-e9dd0a78c14c",
+          "this is a socketed IC"
         ],
         [
           "courtyards_overlap|138981947|151198600|0b94bb74-4a0a-477d-9f85-86d2bde08a50|8215eebd-5c17-41cb-9e5b-466fd694b6e3",
-          ""
+          "edge connector intentionally overhangs Board_068x80 outline footprint courtyard"
         ],
         [
           "courtyards_overlap|145222100|90217392|0b94bb74-4a0a-477d-9f85-86d2bde08a50|84a3c863-c5a7-480d-913c-27a6738d4de7",
-          ""
+          "edge connector intentionally overhangs Board_068x80 outline footprint courtyard"
         ],
         [
           "courtyards_overlap|165542100|90212381|0b94bb74-4a0a-477d-9f85-86d2bde08a50|c255d888-7789-43b1-9768-ab018486a721",
-          ""
+          "edge connector intentionally overhangs Board_068x80 outline footprint courtyard"
         ]
       ],
       "meta": {
@@ -346,16 +303,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|533400|1828800|ab4e6004-16ec-48f3-bea9-3fc07888c4b3|965e9b94-f90f-4d10-b522-c01c6725ec28|/1a875dd3-e9b5-44cc-b2a6-4731fce766eb|/1a875dd3-e9b5-44cc-b2a6-4731fce766eb|/1a875dd3-e9b5-44cc-b2a6-4731fce766eb",
-        ""
-      ],
-      [
-        "power_pin_not_driven|927100|393700|6f834030-138e-42d2-b958-3cc3ea3a877d|00000000-0000-0000-0000-000000000000|/1a875dd3-e9b5-44cc-b2a6-4731fce766eb|/1a875dd3-e9b5-44cc-b2a6-4731fce766eb|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -837,7 +785,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://MRCS.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://SPCoast.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -856,7 +804,7 @@
         "uuid": "1a875dd3-e9b5-44cc-b2a6-4731fce766eb"
       }
     ],
-    "used_designators": "J1-2,#FLG1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
